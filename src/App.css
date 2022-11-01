@@ -1,0 +1,73 @@
+#root {
+  box-sizing: border-box;
+  margin: 0 ;
+  padding: 0;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+display: flex;
+flex-direction: column;
+padding: 1rem;
+justify-content: center;
+align-items: center;
+border: 3px solid grey;
+border-radius: 10px;
+background-color: #95d0fc ;
+width:fit-content ;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.App>h1{
+color: #040348;
+}
+
+.App>h1, h2{
+
+  margin: 0.25rem;
+}
+
+.main-container{
+  display: flex;
+gap: 3rem;
+justify-content: center;
+align-items: center;
+margin-bottom: 2rem;
+}
+
+.icon-container{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container>h3{
+
+  margin: 0.5rem;
+}
+
+
+button{
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+img{
+
+width: 150px ;
+}
+
+
+
